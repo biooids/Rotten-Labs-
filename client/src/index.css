@@ -28,3 +28,32 @@
   font-weight: 400;
   font-style: normal;
 } */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.door p {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+}
+.door form input {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  /* border: 2px solid cyan; */
+  border: none;
+  outline: none;
+}
+.door form label {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  /* border: 2px solid cyan; */
+  border: none;
+  outline: none;
+}
+.door button {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+}
