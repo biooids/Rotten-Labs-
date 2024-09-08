@@ -8,6 +8,9 @@ export default {
       colors: {
         green: "rgb(21, 160, 21)", // Define your custom color
       },
+      fontFamily: {
+        orbitron: ['"Orbitron"', "sans-serif"], // Add your custom font here
+      },
     },
   },
   plugins: [flowbite.plugin()],
